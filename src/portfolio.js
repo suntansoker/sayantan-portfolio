@@ -433,7 +433,7 @@ const projects = {
 		{
 			id: "3",
 			name: "Portfolio Website",
-			url: "https://sayantansarkar.github.io/",
+			url: "https://sayantan-portfolio.vercel.app/",
 			description:
 				"My portfolio website made with React and supporting animation libraries covering my full comprehensive background and information.",
 			languages: [
@@ -466,7 +466,7 @@ const projects = {
 				},
 				{
 					name: "Live Demo",
-					url: "https://sayantansarkar.github.io/",
+					url: "https://sayantan-portfolio.vercel.app/",
 					iconifyClass: "mdi:web",
 				},
 			],
