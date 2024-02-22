@@ -1,5 +1,6 @@
 .contact-main {
 	width: 100%;
+	margin-bottom: 2rem;
 }
 
 .basic-contact {
@@ -142,6 +143,12 @@
 
 	.contact-heading-div {
 		flex-direction: column;
+	}
+
+	.contact-heading-img-div .img {
+		width: 10rem;
+		height: 10rem;
+		margin-bottom: 1rem;
 	}
 
 	.contact-header-detail-text {

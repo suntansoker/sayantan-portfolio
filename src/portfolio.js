@@ -15,7 +15,7 @@ const greeting = {
 	full_name: "Sayantan Sarkar",
 	subTitle: [" Developer.", " Programmer.", " keen learner."],
 	resumeLink:
-		"https://drive.google.com/file/d/1snaiLx0s4339AQ2E1oNjmOcCV0-9BgZd/view?usp=drive_link",
+		"https://drive.google.com/file/d/1O8FJaGdFbawWrHN46NRTDQtmhE2U_1vp/view?usp=drive_link",
 	mail: "mailto:sayantanthepointer@gmail.com",
 };
 
@@ -157,7 +157,7 @@ const competitives = {
 		//   style: {
 		//     color: "#2EC866",
 		//   },
-		//   profileLink: "https://www.hackerrank.com/layman_brother",
+		//   profileLink: "",
 		// },
 		// {
 		//   siteName: "Codechef",
@@ -165,7 +165,7 @@ const competitives = {
 		//   style: {
 		//     color: "#5B4638",
 		//   },
-		//   profileLink: "https://www.codechef.com/users/ashutosh_1919",
+		//   profileLink: "",
 		// },
 		// {
 		//   siteName: "Codeforces",
@@ -173,7 +173,7 @@ const competitives = {
 		//   style: {
 		//     color: "#1F8ACB",
 		//   },
-		//   profileLink: "http://codeforces.com/profile/layman_brother",
+		//   profileLink: "",
 		// },
 		// {
 		//   siteName: "Hackerearth",
@@ -181,7 +181,7 @@ const competitives = {
 		//   style: {
 		//     color: "#323754",
 		//   },
-		//   profileLink: "https://www.hackerearth.com/@ashutosh391",
+		//   profileLink: "",
 		// },
 		// {
 		//   siteName: "Kaggle",
@@ -189,7 +189,7 @@ const competitives = {
 		//   style: {
 		//     color: "#20BEFF",
 		//   },
-		//   profileLink: "https://www.kaggle.com/laymanbrother",
+		//   profileLink: "",
 		// },
 	],
 };
@@ -345,14 +345,6 @@ const projects = {
 				"This website is built to develop an understanding of Music Theory with accompanying tuns and pictures, taught lesson by lesson.",
 			languages: [
 				{
-					name: "HTML5",
-					iconifyClass: "logos-html-5",
-				},
-				{
-					name: "CSS3",
-					iconifyClass: "logos-css-3",
-				},
-				{
 					name: "Angular",
 					iconifyClass: "logos-angular-icon",
 				},
@@ -363,6 +355,10 @@ const projects = {
 				{
 					name: "MongoDB",
 					iconifyClass: "logos-mongodb-icon",
+				},
+				{
+					name: "AWS",
+					iconifyClass: "logos-aws",
 				},
 			],
 			links: [
@@ -454,14 +450,14 @@ const projects = {
 					iconifyClass: "logos-react",
 				},
 				{
-					name: "Framer",
-					iconifyClass: "logos-framer",
+					name: "Vercel",
+					iconifyClass: "logos-vercel-icon",
 				},
 			],
 			links: [
 				{
 					name: "Github",
-					url: "https://github.com/suntansoker/sayantansarkar.github.io",
+					url: "https://github.com/suntansoker/sayantan-portfolio",
 					iconifyClass: "ri:github-fill",
 				},
 				{

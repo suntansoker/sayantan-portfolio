@@ -94,11 +94,10 @@ function DegreeCard(props) {
 			</motion.div>
 
 			{/* <motion.div
-					initial={{ y: "40px", opacity: 0 }}
-					animate={{ y: 0, opacity: 1 }}
-					transition={{ duration: 1, ease: "easeInOut" }}
-				> */}
-
+				initial={{ opacity: 0 }}
+				animate={{ opacity: 1 }}
+				transition={{ duration: 1, ease: "easeInOut" }}
+			> */}
 			<div {...card_body}>
 				<div
 					className="body-header"

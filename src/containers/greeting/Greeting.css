@@ -88,6 +88,14 @@
 	.button-greeting-div {
 		justify-content: space-around;
 	}
+	.greet-main {
+		margin-top: 1rem;
+	}
+
+	.greeting-image-div {
+		padding: 0 2rem;
+	}
+
 	.greeting-text {
 		font-size: 30px;
 		margin-top: 0px;

@@ -117,7 +117,7 @@
 	}
 
 	.experience-card-logo {
-		width: 100px;
+		width: 70px;
 	}
 
 	.experience-card-heading-left {
@@ -134,6 +134,7 @@
 
 	.experience-card-title {
 		text-align: center;
+		margin-top: 2px;
 	}
 
 	.experience-card-company {

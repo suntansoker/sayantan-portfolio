@@ -58,6 +58,7 @@
 @media (max-width: 768px) {
 	.degree-card {
 		flex-direction: column;
+		padding-bottom: 1rem;
 	}
 
 	.body-header {

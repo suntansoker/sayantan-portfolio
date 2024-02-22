@@ -11,7 +11,6 @@ function Educations(props) {
 
 	return (
 		<div className="main" id="educations">
-			<br />
 			<motion.div
 				initial={{ y: "20px", opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}

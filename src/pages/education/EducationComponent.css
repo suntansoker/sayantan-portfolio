@@ -75,6 +75,7 @@
 
 	.heading-div {
 		flex-direction: column;
+		margin-bottom: 2rem;
 	}
 
 	.competitive-header-detail-text {

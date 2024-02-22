@@ -45,7 +45,6 @@ function Education(props) {
 							<CompetitiveSites logos={competitives.competitiveSites} />
 						</div>
 					</div>
-					<br />
 					<Educations theme={props.theme} />
 					{/* <Certifications theme={props.theme} /> */}
 				</div>
