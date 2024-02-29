@@ -1,5 +1,3 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
 	isSplash: false, //true for splash screen.
@@ -15,7 +13,7 @@ const greeting = {
 	full_name: "Sayantan Sarkar",
 	subTitle: [" Developer.", " Programmer.", " keen learner."],
 	resumeLink:
-		"https://drive.google.com/file/d/1O8FJaGdFbawWrHN46NRTDQtmhE2U_1vp/view?usp=drive_link",
+		"https://drive.google.com/file/d/1QIzIVtTR_hIY70Vgnec7JgfQDE-qVMSK/view?usp=sharing",
 	mail: "mailto:sayantanthepointer@gmail.com",
 };
 
@@ -35,7 +33,7 @@ const skills = {
 			skills: [
 				"⚡ Building responsive website front end using React-Redux",
 				"⚡ Developing web frontends using React, Angular and vanilla Javascript",
-				"⚡ Creating web backends in Node, Express & Flask",
+				"⚡ Creating backends in Spring Boot, Hibernate, Node, Express",
 			],
 			softwareSkills: [
 				{
@@ -75,8 +73,22 @@ const skills = {
 					},
 				},
 				{
+					skillName: "Java",
+					fontAwesomeClassname: "logos-java",
+					style: {
+						backgroundColor: "transparent",
+					},
+				},
+				{
+					skillName: "Spring",
+					fontAwesomeClassname: "logos-spring-icon",
+					style: {
+						backgroundColor: "transparent",
+					},
+				},
+				{
 					skillName: "NodeJS",
-					fontAwesomeClassname: "logos-nodejs",
+					fontAwesomeClassname: "logos-nodejs-icon",
 					style: {
 						color: "#339933",
 					},
@@ -90,7 +102,14 @@ const skills = {
 				},
 				{
 					skillName: "MySQL",
-					fontAwesomeClassname: "logos-mysql",
+					fontAwesomeClassname: "logos-mysql-icon",
+					style: {
+						backgroundColor: "transparent",
+					},
+				},
+				{
+					skillName: "Redis",
+					fontAwesomeClassname: "logos-redis",
 					style: {
 						backgroundColor: "transparent",
 					},
@@ -123,7 +142,7 @@ const skills = {
 				},
 				{
 					skillName: "PyTorch",
-					fontAwesomeClassname: "logos-pytorch",
+					fontAwesomeClassname: "logos-pytorch-icon",
 					style: {
 						backgroundColor: "transparent",
 					},
@@ -232,8 +251,9 @@ const degrees = {
 const experience = {
 	title: "Experience",
 	subtitle: "Work, Teaching and Internship",
-	description:
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+	description: [
+		"I have worked with many evolving startups as FullStack Developer. I have also worked with some well established companies mostly as Fullstack Developer. I love organising events and also an ardent learner and explorer of new technologies and systems",
+	],
 	header_image_path: "experience.svg",
 	sections: [
 		{
@@ -247,8 +267,11 @@ const experience = {
 					logo_path: "dlt_apps_logo.jpeg",
 					duration: "Aug 2021 - Apr 2022",
 					location: "Bengaluru, Karnataka",
-					description:
-						" Worked on building an asset management platform using React (TA and Distributor portal) to help asset managers keep track of funds and thereby recommending the best times to invest.Helped in rebranding the portals based on customer needs and worked on email templates and helped to increase the revenue by around a margin of 10%.",
+					descriptions: [
+						"\u2022 Contributed towards building an end-to-end asset management platform using React, Spring Data and Apache Kafka to analyze stocks in and out, maintaining a fault-tolerant, real-time platform, with easy-to-manage dashboards.",
+						"\u2022 Rebranded the portals based on customer needs, with Spring JPA and Hibernate along with PostgreSQL to increase data retrieval speeds, thereby, helping to increase the revenue by around a margin of 20%.",
+						"\u2022 Skills: Javascript, Java, React, Spring Data, Kafka, PostgreSQL, TDD, REST",
+					],
 					color: "#0879bf",
 				},
 				{
@@ -256,10 +279,13 @@ const experience = {
 					company: "Veri5Digital",
 					company_url: "https://www.linkedin.com/company/muffito-inc/about/",
 					logo_path: "veri5digital_logo.jpeg",
-					duration: "Mar 2020 - Aug 2020",
+					duration: "Mar 2020 - Aug 2021",
 					location: "Bengaluru, Karnataka",
-					description:
-						"Worked on developing the company’s portal for providing KYC and VideoKYC based solutions for verifying customers using Angular.Thereafter customers are on-boarded based on VoterCard, Driving License, and other PI documents helping in paving the way of several customers like the RBI Bank, and thereby helping in increasing the customer verification influx by around 15%.",
+					descriptions: [
+						"\u2022 Focussed on developing a KYC and VideoKYC based solution using Angular and Spring Boot to handle around 3500 daily bank customer onboarding for banks like RBL Bank through an effortless and low-latency process.",
+						"\u2022 Followed an MVC approach, with unit testing and Redis caching, for low latency, with Spring security using JWT, and built CI/CD pipeline with Jenkins and Docker, for automated deployment, thereby helping in increasing the customer verification influx by around 15%.",
+						"\u2022 Skills: Javascript, Java, Angular, Spring Boot, Microservices, SQL, TDD, JUnit, Redis, JWT, REST, MVC",
+					],
 					color: "#1a8e88",
 				},
 				{
@@ -269,8 +295,11 @@ const experience = {
 					logo_path: "wipro-logo.jpeg",
 					duration: "Jun 2018 - Dec 2019",
 					location: "Bengaluru, Karnataka",
-					description:
-						"Worked on integrating screens with API on various planning and execution of electrical substations, helping in maintaining a steady revenue growth of the client.The screens were developed in React and involved assignment of work to various group levels from the project manager to the project workers.",
+					descriptions: [
+						"\u2022 Integrated screens in React with Spring Cloud on various planning and execution of electrical substations, with relational mapping using Hibernate ORM, and steady healthy monitoring for smooth operation using Spring Boot Actuator.",
+						"\u2022 Visualized using Chart JS and Material UI with Framer Motion, for better understanding and monitoring of role assignments.",
+						"\u2022 Skills: HTML, CSS, Javascript, React, Material UI, Spring Boot, SQL, Spring, Microservices",
+					],
 					color: "#0879bf",
 				},
 			],
@@ -285,8 +314,10 @@ const experience = {
 					logo_path: "ASU-logo.png",
 					duration: "Aug 2023 - Dec 2023",
 					location: "Tempe, Arizona",
-					description:
-						"Worked as a TA for teaching ML towards Civil Engn, needed for concrete analysis, etc. My work included teaching and giving code walkthroughs from Python basics to advanced topics like CNN and Transformers. Apart from that, I was also responsible for giving classworks and setting homeworks on various ML topics.",
+					descriptions: [
+						"\u2022 Worked as a TA for teaching ML towards Civil Engn, needed for concrete analysis, etc. My work included teaching and giving code walkthroughs from Python basics to advanced topics like CNN and Transformers.",
+						"\u2022 Apart from that, I was also responsible for giving classworks and setting homeworks on various ML topics.",
+					],
 					color: "#ff0000",
 				},
 			],
@@ -301,9 +332,31 @@ const experience = {
 					logo_path: "vaultedge_logo.jpeg",
 					duration: "Mar 2017 - May 2017",
 					location: "Bengaluru, Karnataka",
-					description:
-						"Built a chatbot system using python by training a classifier on a corpus of leave policy documents and then estimating the answers to leave policy questions. Pre-processing, pickling, and later classification was done using Linear SVM.The vocabulary created was post-processed and used to predict labels and answers pertaining to leave policy documents, thereby forming the base for document analysis and caught notice from several document vendors.",
+					descriptions: [
+						"\u2022 Built a chatbot system using python by training a classifier on a corpus of leave policy documents and then estimating the answers to leave policy questions.",
+						"\u2022 Pre-processing, pickling, and later classification was done using Linear SVM.",
+						"\u2022 The vocabulary created was post-processed and used to predict labels and answers pertaining to leave policy documents, thereby forming the base for document analysis and caught notice from several document vendors.",
+					],
 					color: "#0879bf",
+				},
+			],
+		},
+		{
+			title: "Publication",
+			experiences: [
+				{
+					title:
+						"Can NLP Models Accurately reason over contexts that break the Common Assumption?",
+					company: "Arizona State University",
+					company_url: "https://openreview.net/forum?id=HgYXrsRzUT",
+					logo_path: "ASU-logo.png",
+					duration: "Aug 2023 - Dec 2023",
+					location: "Tempe, Arizona",
+					descriptions: [
+						"\u2022 We systematically investigate how state-of-the-art LLM models struggle to reason correctly in such scenarios with a performance drop of ~20% absolute points.",
+						"\u2022 I believe that the results obtained will help to pave a way of building more robust models in the future.",
+					],
+					color: "#ff0000",
 				},
 			],
 		},

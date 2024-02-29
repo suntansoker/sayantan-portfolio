@@ -28,13 +28,13 @@ function ExperienceCard(props) {
 				</div>
 			</motion.div>
 
-			<motion.div
-				initial={{ opacity: 0 }}
-				whileInView={{ opacity: 1 }}
-				transition={{ duration: 1, ease: "easeInOut" }}
-				viewport={{ once: true }}
-			>
-				<div className="experience-card-body-div">
+			<div className="experience-card-body-div">
+				<motion.div
+					initial={{ opacity: 0.5 }}
+					whileInView={{ opacity: 1 }}
+					transition={{ duration: 1 }}
+					viewport={{ once: true }}
+				>
 					<div className="experience-card-header-div">
 						<div className="experience-card-heading-left">
 							<h3
@@ -71,14 +71,26 @@ function ExperienceCard(props) {
 							</p>
 						</div>
 					</div>
-					<p
+					{experience.descriptions.map((sentence, idx) => {
+						return (
+							<p
+								key={idx}
+								className="experience-card-description"
+								style={{ color: theme.palette.text.primary }}
+							>
+								{sentence}
+							</p>
+						);
+					})}
+					{/* </div> */}
+					{/* <p
 						className="experience-card-description"
 						style={{ color: theme.palette.text.primary }}
 					>
 						{experience["description"]}
-					</p>
-				</div>
-			</motion.div>
+					</p> */}
+				</motion.div>
+			</div>
 		</div>
 	);
 }
