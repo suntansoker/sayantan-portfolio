@@ -13,7 +13,7 @@ const greeting = {
 	full_name: "Sayantan Sarkar",
 	subTitle: [" Developer.", " Programmer.", " keen learner."],
 	resumeLink:
-		"https://drive.google.com/file/d/1QIzIVtTR_hIY70Vgnec7JgfQDE-qVMSK/view?usp=sharing",
+		"https://drive.google.com/file/d/1KgME-S_1hvmC2U3sr7sHnm79fUKu_0xS/view?usp=sharing",
 	mail: "mailto:sayantanthepointer@gmail.com",
 };
 
@@ -160,7 +160,7 @@ const skills = {
 };
 
 const competitives = {
-	text: "I have participated in various competitive programming contests from time to time. I have participated in Leetcode contests and secured ranks among top 5% in the world.",
+	text: "I have participated in various competitive programming contests from time to time. I have participated in Leetcode contests and secured ranks among top 4% in the world.",
 	competitiveSites: [
 		{
 			siteName: "LeetCode",
