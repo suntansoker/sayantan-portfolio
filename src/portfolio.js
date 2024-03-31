@@ -13,14 +13,14 @@ const greeting = {
 	full_name: "Sayantan Sarkar",
 	subTitle: [" Developer.", " Programmer.", " keen learner."],
 	resumeLink:
-		"https://drive.google.com/file/d/1KgME-S_1hvmC2U3sr7sHnm79fUKu_0xS/view?usp=sharing",
+		"https://drive.google.com/file/d/1yE0yCPJ151L8sRQuepqTvJYsm8ISpgtX/view?usp=sharing",
 	mail: "mailto:sayantanthepointer@gmail.com",
 };
 
 const socialMediaLinks = {
 	/* Your Social Media Link */
 	github: "https://github.com/suntansoker",
-	linkedin: "https://www.linkedin.com/in/sayantan-asu",
+	linkedin: "https://www.linkedin.com/in/sayantansoker",
 	gmail: "sayantanthepointer@gmail.com",
 	youtube: "https://www.youtube.com/@sayantancodes9219/videos",
 };
@@ -277,7 +277,7 @@ const experience = {
 				{
 					title: "Software Developer",
 					company: "Veri5Digital",
-					company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+					company_url: "https://veri5digital.com",
 					logo_path: "veri5digital_logo.jpeg",
 					duration: "Mar 2020 - Aug 2021",
 					location: "Bengaluru, Karnataka",
